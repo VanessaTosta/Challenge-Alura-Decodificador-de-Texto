@@ -207,7 +207,7 @@ textarea:focus, input:focus, select:focus {
 
 }
 .botao-criptografar{
-    bottom: -30px;
+    bottom: -8px;
     left: 12px;
  
 }
@@ -218,7 +218,7 @@ textarea:focus, input:focus, select:focus {
 }
 
 .botao-descriptografar{
-    bottom: -30px;
+    bottom: -11px;
     right: -112px;
 }
 
@@ -229,9 +229,8 @@ textarea:focus, input:focus, select:focus {
 }
 
 .copiador{
-
     margin-left: 45%;
-    bottom: 177px;
+    bottom: 220px;
     width: 160px;
 }
 .copiador:hover{
