@@ -1,4 +1,4 @@
-# Challenge-Alura-Decodificador-de-Texto
+# Challenge-Oracle+Alura-Programa One-Decodificador-de-Texto
 
 <h1>Resultado<h1>
 <a href="https://vanessatosta.github.io/Challenge-Alura-Decodificador-de-Texto/">Visualize meu resultado.</a>
