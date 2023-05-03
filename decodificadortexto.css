@@ -182,9 +182,12 @@ textarea:focus, input:focus, select:focus {
 
     top: auto;
     width: auto;
-    margin-right: -127px;
+    margin-right: -129px;
     margin-left: 30px;
     background: lightsteelblue;
+ }
+ .saidatexto h2{
+    top: 160px;
  }
 
  .resultado{
@@ -196,10 +199,11 @@ textarea:focus, input:focus, select:focus {
 
 
 .mensagem{
-    top: 127px;
-    font-size: 9px;
+    top: 154px;
+    font-size: 15px;
     font-weight: bolder;
-    left: 6px;
+    margin-left: -58px;
+   
 
 }
 .botao-criptografar{

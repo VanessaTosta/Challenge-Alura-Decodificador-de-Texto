@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="decodificadortexto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+     <main>
+        <header class="logo">
+         <img src="Logo.svg" alt="logo Alura">
+        </header>
+        
+        <div>
+          <textarea  id="inputtexto" placeholder="  Meu segredo é..."></textarea>
+          <p class="alerta"><img src="alerta.svg">Somente letras minúsculas e sem acentos</p>
+        </div>
+
+
+        <div class="saidatexto">
+          <div id="resultadoTexto">
+            <h2>Crie ou descubra um segredo</h2>
+            <p class="mensagem">Criptografe ou Descriptografe um texto</p>
+          </div>
+        </div>
+        
+          
+        <div>
+          <button  onclick="criptografar()" class="botao-criptografar">Criptografar</button>
+          <button  onclick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
+        </div>
+         
+        <button class="copiador"onclick="copiar()">Copiar</button>
+         
+     </main>
+
+     <footer class="rodape">
+   
+       <h3>Desenvolvido por Vanessa Tosta</h3>
+       
+     </footer>
+
+     
+
+     <script src="script.js"></script>
+
+</body>
+</html>
