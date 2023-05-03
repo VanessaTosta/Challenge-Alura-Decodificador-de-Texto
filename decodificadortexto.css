@@ -230,9 +230,9 @@ textarea:focus, input:focus, select:focus {
 
 .copiador{
 
-    margin-left: 47%;
-    bottom: 97px;
-    width: 170px;
+    margin-left: 45%;
+    bottom: 177px;
+    width: 160px;
 }
 .copiador:hover{
     transform: none;
