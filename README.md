@@ -1,5 +1,5 @@
 # Challenge-Alura-Decodificador-de-Texto
-<p>Vizualize meu resultado:<a><href="https://vanessatosta.github.io/Challenge-Alura-Decodificador-de-Texto/"</a></p>
+<p>Vizualize meu resultado:<a href="https://vanessatosta.github.io/Challenge-Alura-Decodificador-de-Texto/"></a></p>
   
 <h1>Descrição</h1>
 <p>Uma aplicação que criptografa e descriptografa textos. As "chaves" da decodificação, ou seja, a base da criptografia, são as vogais convertidas da seguinte forma:</p>
