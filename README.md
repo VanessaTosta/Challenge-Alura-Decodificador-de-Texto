@@ -2,8 +2,8 @@
 
 <h1>Resultado<h1>
 <a href="https://vanessatosta.github.io/Challenge-Alura-Decodificador-de-Texto/">Visualize meu resultado.</a>
-  
-<h2>Descrição</h2>
+
+<h1>Descrição</h1>
 <p>Uma aplicação que criptografa e descriptografa textos. As "chaves" da decodificação, ou seja, a base da criptografia, são as vogais convertidas da seguinte forma:</p>
 <ul>
   <li>A é convertida em "ai"</li>
@@ -14,7 +14,7 @@
 </ul>
 <p>Dessa forma, frases como "ola mundo" ao serem criptografadas se tornam "oberlai mufatndober", e ao serem descriptogradas voltam a sua forma original.</p>
 
-<h3>Requisitos</h3>
+<h1>Requisitos</h1>
 <ul>
   <li>Deve funcionar apenas com letras minúsculas</li>
   <li>Não devem ser utilizados letras com acentos nem caracteres especiais</li>
@@ -23,5 +23,5 @@
   <li>O resultado deve ser exibido na tela.</li>
 </ul>
 
-<h4>Extras</h4>
+<h1>Extras</h1>
 <p>Um botão que copie o texto criptografado/descriptografado para a área de transferência, ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.</p>
