@@ -1,0 +1,248 @@
+body{
+
+	background: linear-gradient(#004680,#149dac);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.logo{
+
+	margin: 20px 0 0;
+    width: 20px;
+    color: black;
+}
+
+textarea{
+    background: lightsteelblue;
+    position: relative;
+    margin: 0 0 100px 100px;
+    height: 490px;
+    width: 35%;
+    font-size: 27px;
+    border:0 none;
+    padding-top: 10px;
+    color:black;
+    border-radius: 27px;
+    box-shadow: 0 0 0 0 ;
+    border: 5px solid;
+   
+}
+
+
+textarea:focus, input:focus, select:focus {
+        outline: 0;
+}
+
+::placeholder{
+
+    color: black;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.alerta{
+
+ position: absolute;
+ bottom:150px;
+ left: 120px;
+ cursor: default;
+ 
+}
+
+.alerta:hover{
+    transform: scale(1.2);
+    transition: 1s
+}
+
+.saidatexto {
+    height: 65%;
+    border: 5px solid black;
+    border-radius: 27px;
+    position: absolute;
+    top: 70px;
+    right: 9%;
+    background:lightsteelblue;
+}
+
+
+.saidatexto h2{
+
+    font-size: 27px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+
+}
+
+.mensagem{
+    font-size: 13px;
+    position: relative;
+    top: 197px;
+    left: 97px;
+   
+}
+.resultado{
+    position: relative;
+    height: 465px;
+    width: 98%;
+    right: 23%;
+    border: none;
+}
+	
+
+.botao-criptografar{
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(#234d20,#c9df8a);
+    width: 220px;
+    margin-left: 8%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 70px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Bruno Ace SC', cursive;
+    box-shadow: none;
+    border: transparent;
+}
+.botao-criptografar:hover{
+    transform: scale(1.2);
+    transition: 1s    
+
+}
+
+
+.botao-descriptografar{
+    
+    border-radius: 10px;
+    background: linear-gradient(#234d20,#c9df8a );
+    width: 220px;
+    margin-left: 347px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 70px;
+    height: 50px;
+    font-size: 20px; 
+    font-family: 'Bruno Ace SC', cursive;
+    box-shadow: none;
+    border: transparent;
+
+}
+.botao-descriptografar:hover{
+    transform: scale(1.2);
+    transition: 1s    
+
+}
+
+.copiador{
+    border-radius: 10px;
+    background: linear-gradient(#234d20,#c9df8a);
+    width: 220px;
+    margin-left: 65%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 70px;
+    height: 50px;
+    font-size: 37px;
+    font-family: 'Bruno Ace SC', cursive;
+    box-shadow: none;
+    border: transparent;
+}
+.copiador:hover{
+    transform: scale(1.2);
+    transition: 1s    
+}
+.rodape{
+
+    font-size: 27px;
+    text-align: center;
+    margin-top: 100px
+}
+
+
+
+@media screen and (max-width: 480px){
+ .logo{
+    width: auto;
+ }
+ .alerta{
+    position: relative;
+    top: -110px;
+ }
+
+ #inputtexto{
+    background: lightsteelblue;
+    padding-top: 20px;
+    width: auto;
+    bottom: 10px;
+    border: 5px solid;
+
+ }
+
+ .saidatexto{
+
+    top: auto;
+    width: auto;
+    margin-right: -127px;
+    margin-left: 30px;
+    background: lightsteelblue;
+ }
+
+ .resultado{
+    height: 415px;
+    right: 24%;
+    left: -101px;
+
+ }
+
+
+.mensagem{
+    top: 127px;
+    font-size: 9px;
+    font-weight: bolder;
+    left: 6px;
+
+}
+.botao-criptografar{
+    bottom: -30px;
+    left: 12px;
+ 
+}
+.botao-criptografar:hover{
+    transform: none;
+    transition: 0s    
+
+}
+
+.botao-descriptografar{
+    bottom: -30px;
+    right: -112px;
+}
+
+.botao-descriptografar:hover{
+    transform: none;
+    transition: 0s    
+
+}
+
+.copiador{
+
+    margin-left: 47%;
+    bottom: 97px;
+    width: 170px;
+}
+.copiador:hover{
+    transform: none;
+    transition: 0s    
+
+}
+.rodape{
+
+    position: relative;
+    top: 450px;
+    left: 72px;
+    font-size: 18px;
+}
+
+
+
+ }
